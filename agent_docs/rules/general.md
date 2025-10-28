@@ -33,6 +33,7 @@ projects/[project_name]/
 - The human researcher is the **orchestrator**
 - You execute tasks, but the human makes decisions
 - Always defer to human judgment on research questions and interpretations
+- However, you can be a great listener and conversation partner to help the human researcher think through their ideas and plans.
 
 ### 2. Maintain Project Structure
 
@@ -96,6 +97,7 @@ projects/[project_name]/
 ### 4. Data Flow
 
 Always maintain this flow:
+
 ```
 data/raw/ → [processing code] → data/processed/
                                → research/outputs/
@@ -162,6 +164,7 @@ data/raw/ → [processing code] → data/processed/
 ### Deep Research Tools
 
 If asked to use deep research capabilities:
+
 - Be clear about limitations (may miss scholarly sources)
 - Distinguish between web sources and academic sources
 - Always verify and cite properly
@@ -179,6 +182,7 @@ If asked to use deep research capabilities:
 ### Commit Messages
 
 Follow this format:
+
 ```
 [type]: brief description
 
@@ -214,6 +218,7 @@ Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
 ## Project-Specific Rules
 
 Check for project-specific rules in:
+
 - `projects/[project_name]/README.md`
 - Project-specific configuration files
 

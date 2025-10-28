@@ -3,6 +3,10 @@
 # Based on official GitHub gitignore templates
 # ============================================================================
 
+
+# Ignore playgrounds
+playgrounds/
+
 # ----------------------------------------------------------------------------
 # Python
 # Based on: https://github.com/github/gitignore/blob/main/Python.gitignore
